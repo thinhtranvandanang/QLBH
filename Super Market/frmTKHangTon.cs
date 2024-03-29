@@ -29,7 +29,7 @@ namespace Super_Market
             DataTable dt = new DataTable();
             string strSQL = " SELECT ProductID as [Mã sản phẩm], Name as [Tên sản phẩm], UnitCalc as [Đơn vị tính], sellPrice as [Giá bán], totalImport as [Tổng nhập], totalSell as [Tổng bán], (totalImport- totalSell) as [Tồn] " +
                            " FROM Products ";
-            using (SqlConnection conn = new SqlConnection(ConnectionString.getConnect()))
+            using (SqlConnection conn = new SqlConnection(ConnectionString.chuoiKetNoi()))
             {
                 using (SqlDataAdapter sda = new SqlDataAdapter(strSQL, conn))
                 {

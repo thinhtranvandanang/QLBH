@@ -39,7 +39,7 @@ namespace Super_Market
             string strSQL = " SELECT SellOrders.SellOrderID as [Mã hóa đơn], CONVERT(varchar, SellOrders.SellDate, 103) AS [Ngày hóa đơn], SellOrders.Total as [Tổng tiền], Employees.EmployeeName as [Nhân viên] " + 
                             " FROM SellOrders INNER JOIN Employees ON SellOrders.EmployeeID = Employees.EmployeeID " +
                             " where SellOrders.SellDate between '" + tuNgay + "' and  '" + denNgay + "'";
-            using (SqlConnection conn = new SqlConnection(ConnectionString.getConnect()))
+            using (SqlConnection conn = new SqlConnection(ConnectionString.chuoiKetNoi()))
             {
                 using (SqlDataAdapter sda = new SqlDataAdapter(strSQL, conn))
                 {

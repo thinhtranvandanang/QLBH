@@ -1,13 +1,22 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
 namespace Super_Market
 {
+    class clsBienDungChung
+    {
+        public static string roleAdmin = "QuanLy";
+        public static string roleNhanVien = "NhanVien";
+        public static string Quyen = ""; // quyền là nhân viên hay quản lý khi đăng nhập
+        public static int idNguoiDungDangNhap = 0;
+
+        public static int FirstTimeOpen = 0; // mở form main lần đầu
+    }
     public static class ConnectionString
     {
         static String result;
-        public  static String getConnect()
+        public  static String chuoiKetNoi()
         {
             String curentDirectory = Directory.GetCurrentDirectory();
             String path = Directory.GetCurrentDirectory() + @"\config.txt";

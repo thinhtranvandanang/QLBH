@@ -41,7 +41,7 @@ namespace Super_Market
                         " Providers ON InOrders.ProviderID = Providers.ProviderID INNER JOIN " +
                         " Employees ON InOrders.EmployeeID = Employees.EmployeeID " + 
                         " where InOrders.InDate between '" + tuNgay + "' and  '" + denNgay + "'";
-            using (SqlConnection conn = new SqlConnection(ConnectionString.getConnect()))
+            using (SqlConnection conn = new SqlConnection(ConnectionString.chuoiKetNoi()))
             {
                 using (SqlDataAdapter sda = new SqlDataAdapter(strSQL, conn))
                 {
