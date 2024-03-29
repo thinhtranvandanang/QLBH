@@ -9,7 +9,6 @@ namespace Super_Market
         public static string roleAdmin = "QuanLy";
         public static string roleNhanVien = "NhanVien";
         public static string Quyen = ""; // quyền là nhân viên hay quản lý khi đăng nhập
-        public static int idNguoiDungDangNhap = 0;
 
         public static int FirstTimeOpen = 0; // mở form main lần đầu
     }
