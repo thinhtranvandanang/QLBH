@@ -29,6 +29,12 @@ D:\tmpDATN\QLBH\Super Market\obj\Debug\Super Market.csproj.CopyComplete
 D:\tmpDATN\QLBH\Super Market\obj\Debug\Super Market.exe
 D:\tmpDATN\QLBH\Super Market\obj\Debug\Super Market.pdb
 D:\tmpDATN\QLBH\Super Market\obj\Debug\Super Market.csprojAssemblyReference.cache
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\Super Market.exe.config
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\Super Market.exe.manifest
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\Super Market.application
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\Super Market.exe
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\Super Market.pdb
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\bin\Debug\System.Web.Services.dll
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super_Market.FrmAbout.resources
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super_Market.frmDangNhap.resources
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super_Market.frmDanhMucNhaCungCap.resources
@@ -48,3 +54,8 @@ D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super_Market.frmTKHangTon.resou
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super_Market.Properties.Resources.resources
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.csproj.GenerateResource.cache
 D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.csproj.CoreCompileInputs.cache
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.exe.manifest
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.application
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.csproj.CopyComplete
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.exe
+D:\tmpDATN\QLBH-Repo\QLBH\Super Market\obj\Debug\Super Market.pdb

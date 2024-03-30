@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsForm.cs" />
     <Compile Include="ConnectionString.cs" />
     <Compile Include="FrmAbout.cs">
       <SubType>Form</SubType>

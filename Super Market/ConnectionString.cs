@@ -15,7 +15,7 @@ namespace Super_Market
     public static class ConnectionString
     {
         static String result;
-        public  static String chuoiKetNoi()
+        public static String chuoiKetNoi()
         {
             String curentDirectory = Directory.GetCurrentDirectory();
             String path = Directory.GetCurrentDirectory() + @"\config.txt";
