@@ -52,8 +52,18 @@ namespace Super_Market
 
         private void btnXem_Click(object sender, EventArgs e)
         {
+            DateTime tuNgay, denNgay;
+            tuNgay = dtpTuNgay.Value;
+            denNgay = dtpDenNgay.Value;
+
+            if (tuNgay > denNgay)
+            {
+                MessageBox.Show("Dữ liệu ngày không hợp lệ");
+                return;
+            }
+
             DataTable dt = new DataTable();
-            dt = xemHoaDonBan(dtpTuNgay.Value, dtpDenNgay.Value );
+            dt = xemHoaDonBan(tuNgay, denNgay);
             grdData.DataSource = null;
             grdData.Refresh();
             grdData.DataSource = dt;
